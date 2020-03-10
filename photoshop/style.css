@@ -1,0 +1,33 @@
+body{
+    background-color: #36312D ;
+}
+button{
+    background-color:rgb(114, 120, 122) ;
+    border-style: none;
+    padding: 5px;
+    float: left;
+    margin: 30px;
+}
+#circle{
+    border-radius: 50%;
+}
+a.brushBtn:hover span{
+    display: inline;
+    position: absolute;
+    background: #E6E6E8;
+    z-index: 1;
+}
+a.brushBtn span {
+    display: none;
+    padding: 4px;
+}
+#canvas{
+    background-color: white;
+    position: relative;
+}
+#colors{
+    float: left;
+    margin-left: 30px;
+    margin-right: 50px;
+    padding: 10px;
+}

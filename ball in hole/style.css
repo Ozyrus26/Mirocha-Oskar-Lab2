@@ -1,0 +1,32 @@
+body{
+    background-color: #36312D;
+}
+#ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #E6E6E8;
+    top: 50;
+    left: 50;
+}
+#hole{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: darkred;
+    top:100px;
+    left: 200px;
+    position: absolute;
+    z-index: -1;
+}
+#badhole{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: darkred;
+    top:100px;
+    left: 200px;
+    position: absolute;
+    z-index: -1;
+}
